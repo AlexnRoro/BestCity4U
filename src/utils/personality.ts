@@ -2,14 +2,10 @@ import { UserProfile } from '../types'
 
 export function generatePersonality(userProfile: UserProfile): string {
   const weights = userProfile.weights
-  const scores = userProfile.scores
   
   // 找出最重视的维度
   const topWeight = Object.entries(weights).sort((a, b) => b[1] - a[1])[0]
-  const [topDim, topVal] = topWeight
-  
-  // 找出偏好最高的维度
-  const topScore = Object.entries(scores).sort((a, b) => b[1] - a[1])[0]
+  const topDim = topWeight[0]
   
   const personalities: Record<string, string[]> = {
     Career: ['职业导向的奋斗者', '追求事业发展的实干家', '以职业为重的进取者'],

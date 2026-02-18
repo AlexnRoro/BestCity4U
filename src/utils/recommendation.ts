@@ -4,7 +4,6 @@ import { DIMENSION_NAMES } from '../constants'
 export function generateRecommendation(city: CityMatch, userProfile: UserProfile): string {
   const topDim = city.top_factors[0]
   const weight = userProfile.weights[topDim]
-  const score = userProfile.scores[topDim]
   
   const reasons: string[] = []
   

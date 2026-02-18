@@ -30,7 +30,7 @@ export default function Results({ data, onRestart }: ResultsProps) {
     
     addPrintStyles()
     
-    const baseUrl = import.meta.env.DEV ? '' : '/BestCity4U'
+    const baseUrl = import.meta.env?.DEV ? '' : '/BestCity4U'
     fetch(`${baseUrl}/data/cities.lite.v1.json`)
       .then(res => {
         if (!res.ok) throw new Error('加载城市数据失败')

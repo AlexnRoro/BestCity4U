@@ -20,9 +20,10 @@ export function calculateUserProfile(answers: Record<string, number>, questions:
     const score = q.reverse_scoring ? 1 - normalized : normalized
 
     Object.entries(q.dimension_weights).forEach(([dim, weight]) => {
-      if (weight > 0) {
-        scores[dim] += score * Math.abs(weight)
-        weights[dim] += Math.abs(weight)
+      const w = weight as number
+      if (w > 0) {
+        scores[dim] += score * Math.abs(w)
+        weights[dim] += Math.abs(w)
         counts[dim]++
       }
     })
