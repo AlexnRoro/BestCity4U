@@ -39,9 +39,9 @@ export default function Results({ data, onRestart }: ResultsProps) {
       .then((cities: CityData) => {
         setCityData(cities)
         const matches = matchCities(data.userProfile, cities.cities)
-        const top10 = matches.slice(0, 10)
-        setTopCities(top10)
-        setSelectedCity(top10[0])
+        const top5 = matches.slice(0, 5)
+        setTopCities(top5)
+        setSelectedCity(top5[0])
       })
       .catch(err => setError(err.message || '加载失败，请刷新重试'))
   }, [data])
@@ -64,8 +64,43 @@ export default function Results({ data, onRestart }: ResultsProps) {
     }
   }
 
-  const handleShareImage = () => {
-    setShowShareCard(true)
+  const handleShareImage = async () => {
+    try {
+      // 动态导入html2canvas
+      const html2canvas = (await import('html2canvas')).default
+      
+      const element = document.querySelector('.results') as HTMLElement
+      if (!element) return
+      
+      // 隐藏按钮
+      const buttons = element.querySelectorAll('.header-buttons, .export-button, .share-button, .restart-button')
+      buttons.forEach(btn => (btn as HTMLElement).style.display = 'none')
+      
+      // 生成图片
+      const canvas = await html2canvas(element, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: '#ffffff'
+      })
+      
+      // 恢复按钮
+      buttons.forEach(btn => (btn as HTMLElement).style.display = '')
+      
+      // 下载图片
+      canvas.toBlob(blob => {
+        if (blob) {
+          const url = URL.createObjectURL(blob)
+          const a = document.createElement('a')
+          a.href = url
+          a.download = `我的最佳城市-${topCities[0].city_name}.png`
+          a.click()
+          URL.revokeObjectURL(url)
+        }
+      })
+    } catch (error) {
+      // 如果html2canvas加载失败，回退到提示截图
+      alert('请使用浏览器的截图功能：\n\nWindows: Win + Shift + S\nmacOS: Cmd + Shift + 4\n手机: 截屏功能')
+    }
   }
 
   return (
@@ -94,29 +129,6 @@ export default function Results({ data, onRestart }: ResultsProps) {
         <div className="hero-tags">
           {topCities[0].tags.map(tag => (
             <span key={tag} className="tag">{tag}</span>
-          ))}
-        </div>
-      </div>
-
-      <div className="top5-section">
-        <h2>Top 10 城市</h2>
-        <div className="top5-grid">
-          {topCities.map((city, index) => (
-            <div 
-              key={city.city_id} 
-              className={`city-card ${selectedCity?.city_id === city.city_id ? 'active' : ''}`}
-              onClick={() => setSelectedCity(city)}
-            >
-              <div className="city-rank">#{index + 1}</div>
-              <h3>{city.city_name}</h3>
-              <p className="city-country">{city.country_name}</p>
-              <div className="city-score">{city.match_score}</div>
-              <div className="city-tags">
-                {city.tags.slice(0, 2).map(tag => (
-                  <span key={tag} className="tag-small">{tag}</span>
-                ))}
-              </div>
-            </div>
           ))}
         </div>
       </div>
@@ -227,6 +239,29 @@ export default function Results({ data, onRestart }: ResultsProps) {
               </div>
             )
           })}
+        </div>
+      </div>
+      
+      <div className="top5-section">
+        <h2>Top 5 城市</h2>
+        <div className="top5-grid">
+          {topCities.map((city, index) => (
+            <div 
+              key={city.city_id} 
+              className={`city-card ${selectedCity?.city_id === city.city_id ? 'active' : ''}`}
+              onClick={() => setSelectedCity(city)}
+            >
+              <div className="city-rank">#{index + 1}</div>
+              <h3>{city.city_name}</h3>
+              <p className="city-country">{city.country_name}</p>
+              <div className="city-score">{city.match_score}</div>
+              <div className="city-tags">
+                {city.tags.slice(0, 2).map(tag => (
+                  <span key={tag} className="tag-small">{tag}</span>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       

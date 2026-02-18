@@ -1,6 +1,8 @@
 export function exportToPDF() {
-  // 使用浏览器原生打印功能
-  window.print()
+  // 使用浏览器原生打印功能，增加延迟确保渲染完成
+  setTimeout(() => {
+    window.print()
+  }, 500)
 }
 
 // 添加打印样式
