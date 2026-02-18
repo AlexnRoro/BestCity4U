@@ -30,7 +30,32 @@ export default function Quiz({ onComplete, mode = 'full' }: QuizProps) {
       })
       .then(data => {
         if (mode === 'quick') {
-          const quickQuestions = data.questions.filter((_: any, i: number) => i % 2 === 0 || i < 8)
+          // 优化：确保每个维度至少有2-3道题
+          const dimensionQuestions: Record<string, any[]> = {
+            Climate: [],
+            Cost: [],
+            Safety: [],
+            Mobility: [],
+            Career: [],
+            Culture: [],
+            Nature: [],
+            International: []
+          }
+          
+          // 按维度分组
+          data.questions.forEach((q: any) => {
+            const mainDim = Object.keys(q.dimension_weights)[0]
+            if (dimensionQuestions[mainDim]) {
+              dimensionQuestions[mainDim].push(q)
+            }
+          })
+          
+          // 每个维度取前2-3道题，总共20道
+          const quickQuestions: any[] = []
+          Object.values(dimensionQuestions).forEach(questions => {
+            quickQuestions.push(...questions.slice(0, 3))
+          })
+          
           setQuestionData({ ...data, questions: quickQuestions.slice(0, 20) })
         } else {
           setQuestionData(data)
