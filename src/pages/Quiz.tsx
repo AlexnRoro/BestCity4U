@@ -22,7 +22,8 @@ export default function Quiz({ onComplete, mode = 'full' }: QuizProps) {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch('/Best-City-for-You/data/questions.v1.json')
+    const baseUrl = import.meta.env.DEV ? '' : '/BestCity4U'
+    fetch(`${baseUrl}/data/questions.v1.json`)
       .then(res => {
         if (!res.ok) throw new Error('加载题目失败')
         return res.json()
