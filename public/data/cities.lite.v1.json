@@ -1,0 +1,3791 @@
+{
+  "version": "v1.2",
+  "generated_at": "2026-02-18",
+  "cities": [
+    {
+      "city_id": "CN-BJ",
+      "city_name": "北京",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 39.9,
+      "lon": 116.4,
+      "dimension_scores": {
+        "Climate": 0.55,
+        "Cost": 0.45,
+        "Safety": 0.75,
+        "Mobility": 0.85,
+        "Career": 0.9,
+        "Culture": 0.8,
+        "Nature": 0.4,
+        "International": 0.65
+      },
+      "tags": [
+        "首都",
+        "科技"
+      ],
+      "known_tradeoffs": [
+        "空气质量",
+        "成本高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CN-SH",
+      "city_name": "上海",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 31.2,
+      "lon": 121.5,
+      "dimension_scores": {
+        "Climate": 0.6,
+        "Cost": 0.4,
+        "Safety": 0.78,
+        "Mobility": 0.9,
+        "Career": 0.92,
+        "Culture": 0.85,
+        "Nature": 0.35,
+        "International": 0.75
+      },
+      "tags": [
+        "金融",
+        "国际化"
+      ],
+      "known_tradeoffs": [
+        "成本高",
+        "拥挤"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CN-GZ",
+      "city_name": "广州",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 23.1,
+      "lon": 113.3,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.55,
+        "Safety": 0.72,
+        "Mobility": 0.8,
+        "Career": 0.8,
+        "Culture": 0.75,
+        "Nature": 0.45,
+        "International": 0.6
+      },
+      "tags": [
+        "美食",
+        "贸易"
+      ],
+      "known_tradeoffs": [
+        "炎热潮湿"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CN-SZ",
+      "city_name": "深圳",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 22.5,
+      "lon": 114.1,
+      "dimension_scores": {
+        "Climate": 0.65,
+        "Cost": 0.5,
+        "Safety": 0.8,
+        "Mobility": 0.85,
+        "Career": 0.88,
+        "Culture": 0.7,
+        "Nature": 0.5,
+        "International": 0.68
+      },
+      "tags": [
+        "科技",
+        "年轻"
+      ],
+      "known_tradeoffs": [
+        "成本高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CN-HZ",
+      "city_name": "杭州",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 30.3,
+      "lon": 120.2,
+      "dimension_scores": {
+        "Climate": 0.62,
+        "Cost": 0.58,
+        "Safety": 0.76,
+        "Mobility": 0.75,
+        "Career": 0.78,
+        "Culture": 0.72,
+        "Nature": 0.7,
+        "International": 0.55
+      },
+      "tags": [
+        "互联网",
+        "风景"
+      ],
+      "known_tradeoffs": [
+        "夏季炎热"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CN-CD",
+      "city_name": "成都",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 30.6,
+      "lon": 104.1,
+      "dimension_scores": {
+        "Climate": 0.58,
+        "Cost": 0.7,
+        "Safety": 0.74,
+        "Mobility": 0.7,
+        "Career": 0.72,
+        "Culture": 0.8,
+        "Nature": 0.6,
+        "International": 0.5
+      },
+      "tags": [
+        "美食",
+        "悠闲"
+      ],
+      "known_tradeoffs": [
+        "空气质量"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CN-NJ",
+      "city_name": "南京",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 32.1,
+      "lon": 118.8,
+      "dimension_scores": {
+        "Climate": 0.6,
+        "Cost": 0.65,
+        "Safety": 0.74,
+        "Mobility": 0.73,
+        "Career": 0.73,
+        "Culture": 0.72,
+        "Nature": 0.58,
+        "International": 0.54
+      },
+      "tags": [
+        "历史",
+        "教育"
+      ],
+      "known_tradeoffs": [
+        "夏季炎热"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CN-WH",
+      "city_name": "武汉",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 30.6,
+      "lon": 114.3,
+      "dimension_scores": {
+        "Climate": 0.52,
+        "Cost": 0.68,
+        "Safety": 0.71,
+        "Mobility": 0.72,
+        "Career": 0.75,
+        "Culture": 0.7,
+        "Nature": 0.5,
+        "International": 0.52
+      },
+      "tags": [
+        "教育",
+        "交通"
+      ],
+      "known_tradeoffs": [
+        "夏季炎热"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "city_id": "CN-XA",
+      "city_name": "西安",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 34.3,
+      "lon": 108.9,
+      "dimension_scores": {
+        "Climate": 0.58,
+        "Cost": 0.72,
+        "Safety": 0.72,
+        "Mobility": 0.68,
+        "Career": 0.68,
+        "Culture": 0.78,
+        "Nature": 0.52,
+        "International": 0.5
+      },
+      "tags": [
+        "古都",
+        "历史"
+      ],
+      "known_tradeoffs": [
+        "空气质量"
+      ],
+      "confidence": "Medium"
+    },
+    {
+      "city_id": "CN-CQ",
+      "city_name": "重庆",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": 29.4,
+      "lon": 106.9,
+      "dimension_scores": {
+        "Climate": 0.55,
+        "Cost": 0.72,
+        "Safety": 0.73,
+        "Mobility": 0.68,
+        "Career": 0.7,
+        "Culture": 0.75,
+        "Nature": 0.55,
+        "International": 0.48
+      },
+      "tags": [
+        "山城",
+        "火锅"
+      ],
+      "known_tradeoffs": [
+        "夏季炎热"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "JP-TYO",
+      "city_name": "东京",
+      "country_name": "日本",
+      "region": "Asia",
+      "lat": 35.7,
+      "lon": 139.7,
+      "dimension_scores": {
+        "Climate": 0.65,
+        "Cost": 0.35,
+        "Safety": 0.88,
+        "Mobility": 0.95,
+        "Career": 0.85,
+        "Culture": 0.9,
+        "Nature": 0.45,
+        "International": 0.7
+      },
+      "tags": [
+        "国际",
+        "科技"
+      ],
+      "known_tradeoffs": [
+        "成本极高",
+        "地震"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "JP-OSA",
+      "city_name": "大阪",
+      "country_name": "日本",
+      "region": "Asia",
+      "lat": 34.7,
+      "lon": 135.5,
+      "dimension_scores": {
+        "Climate": 0.65,
+        "Cost": 0.45,
+        "Safety": 0.85,
+        "Mobility": 0.9,
+        "Career": 0.78,
+        "Culture": 0.85,
+        "Nature": 0.42,
+        "International": 0.65
+      },
+      "tags": [
+        "美食",
+        "商业"
+      ],
+      "known_tradeoffs": [
+        "成本高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "KR-SEL",
+      "city_name": "首尔",
+      "country_name": "韩国",
+      "region": "Asia",
+      "lat": 37.6,
+      "lon": 127.0,
+      "dimension_scores": {
+        "Climate": 0.58,
+        "Cost": 0.48,
+        "Safety": 0.82,
+        "Mobility": 0.92,
+        "Career": 0.82,
+        "Culture": 0.85,
+        "Nature": 0.5,
+        "International": 0.68
+      },
+      "tags": [
+        "科技",
+        "文化"
+      ],
+      "known_tradeoffs": [
+        "成本高",
+        "竞争"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "SG-SIN",
+      "city_name": "新加坡",
+      "country_name": "新加坡",
+      "region": "Asia",
+      "lat": 1.4,
+      "lon": 103.8,
+      "dimension_scores": {
+        "Climate": 0.45,
+        "Cost": 0.3,
+        "Safety": 0.92,
+        "Mobility": 0.95,
+        "Career": 0.88,
+        "Culture": 0.82,
+        "Nature": 0.4,
+        "International": 0.95
+      },
+      "tags": [
+        "金融",
+        "国际"
+      ],
+      "known_tradeoffs": [
+        "炎热",
+        "成本极高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "TH-BKK",
+      "city_name": "曼谷",
+      "country_name": "泰国",
+      "region": "Asia",
+      "lat": 13.8,
+      "lon": 100.5,
+      "dimension_scores": {
+        "Climate": 0.4,
+        "Cost": 0.8,
+        "Safety": 0.68,
+        "Mobility": 0.65,
+        "Career": 0.65,
+        "Culture": 0.78,
+        "Nature": 0.48,
+        "International": 0.75
+      },
+      "tags": [
+        "低成本",
+        "美食"
+      ],
+      "known_tradeoffs": [
+        "炎热",
+        "拥堵"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "US-NYC",
+      "city_name": "纽约",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": 40.7,
+      "lon": -74.0,
+      "dimension_scores": {
+        "Climate": 0.55,
+        "Cost": 0.25,
+        "Safety": 0.7,
+        "Mobility": 0.88,
+        "Career": 0.95,
+        "Culture": 0.95,
+        "Nature": 0.4,
+        "International": 0.9
+      },
+      "tags": [
+        "金融",
+        "文化"
+      ],
+      "known_tradeoffs": [
+        "成本极高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "US-SFO",
+      "city_name": "旧金山",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": 37.8,
+      "lon": -122.4,
+      "dimension_scores": {
+        "Climate": 0.75,
+        "Cost": 0.2,
+        "Safety": 0.68,
+        "Mobility": 0.8,
+        "Career": 0.92,
+        "Culture": 0.88,
+        "Nature": 0.7,
+        "International": 0.85
+      },
+      "tags": [
+        "科技",
+        "宜居"
+      ],
+      "known_tradeoffs": [
+        "成本极高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "US-LAX",
+      "city_name": "洛杉矶",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": 34.1,
+      "lon": -118.2,
+      "dimension_scores": {
+        "Climate": 0.78,
+        "Cost": 0.35,
+        "Safety": 0.62,
+        "Mobility": 0.6,
+        "Career": 0.85,
+        "Culture": 0.9,
+        "Nature": 0.65,
+        "International": 0.82
+      },
+      "tags": [
+        "娱乐",
+        "气候"
+      ],
+      "known_tradeoffs": [
+        "拥堵",
+        "成本高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "GB-LON",
+      "city_name": "伦敦",
+      "country_name": "英国",
+      "region": "Europe",
+      "lat": 51.5,
+      "lon": -0.1,
+      "dimension_scores": {
+        "Climate": 0.58,
+        "Cost": 0.32,
+        "Safety": 0.75,
+        "Mobility": 0.92,
+        "Career": 0.9,
+        "Culture": 0.95,
+        "Nature": 0.55,
+        "International": 0.95
+      },
+      "tags": [
+        "金融",
+        "文化"
+      ],
+      "known_tradeoffs": [
+        "阴雨",
+        "成本极高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "FR-PAR",
+      "city_name": "巴黎",
+      "country_name": "法国",
+      "region": "Europe",
+      "lat": 48.9,
+      "lon": 2.4,
+      "dimension_scores": {
+        "Climate": 0.6,
+        "Cost": 0.4,
+        "Safety": 0.72,
+        "Mobility": 0.9,
+        "Career": 0.82,
+        "Culture": 0.98,
+        "Nature": 0.62,
+        "International": 0.88
+      },
+      "tags": [
+        "文化",
+        "艺术"
+      ],
+      "known_tradeoffs": [
+        "罢工",
+        "成本高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "DE-BER",
+      "city_name": "柏林",
+      "country_name": "德国",
+      "region": "Europe",
+      "lat": 52.5,
+      "lon": 13.4,
+      "dimension_scores": {
+        "Climate": 0.55,
+        "Cost": 0.58,
+        "Safety": 0.78,
+        "Mobility": 0.88,
+        "Career": 0.8,
+        "Culture": 0.92,
+        "Nature": 0.65,
+        "International": 0.85
+      },
+      "tags": [
+        "文化",
+        "创意"
+      ],
+      "known_tradeoffs": [
+        "冬季阴冷"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "AU-SYD",
+      "city_name": "悉尼",
+      "country_name": "澳大利亚",
+      "region": "Oceania",
+      "lat": -33.9,
+      "lon": 151.2,
+      "dimension_scores": {
+        "Climate": 0.75,
+        "Cost": 0.38,
+        "Safety": 0.82,
+        "Mobility": 0.82,
+        "Career": 0.85,
+        "Culture": 0.88,
+        "Nature": 0.9,
+        "International": 0.88
+      },
+      "tags": [
+        "海滨",
+        "宜居"
+      ],
+      "known_tradeoffs": [
+        "成本极高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CA-TOR",
+      "city_name": "多伦多",
+      "country_name": "加拿大",
+      "region": "North America",
+      "lat": 43.7,
+      "lon": -79.4,
+      "dimension_scores": {
+        "Climate": 0.48,
+        "Cost": 0.45,
+        "Safety": 0.82,
+        "Mobility": 0.88,
+        "Career": 0.82,
+        "Culture": 0.88,
+        "Nature": 0.58,
+        "International": 0.92
+      },
+      "tags": [
+        "多元",
+        "安全"
+      ],
+      "known_tradeoffs": [
+        "冬季严寒",
+        "成本高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "CA-VAN",
+      "city_name": "温哥华",
+      "country_name": "加拿大",
+      "region": "North America",
+      "lat": 49.3,
+      "lon": -123.1,
+      "dimension_scores": {
+        "Climate": 0.65,
+        "Cost": 0.35,
+        "Safety": 0.85,
+        "Mobility": 0.82,
+        "Career": 0.75,
+        "Culture": 0.85,
+        "Nature": 0.92,
+        "International": 0.9
+      },
+      "tags": [
+        "宜居",
+        "自然"
+      ],
+      "known_tradeoffs": [
+        "阴雨",
+        "成本极高"
+      ],
+      "confidence": "High"
+    },
+    {
+      "city_id": "US-CHI",
+      "city_name": "芝加哥",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-BOS",
+      "city_name": "波士顿",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-SEA",
+      "city_name": "西雅图",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-DEN",
+      "city_name": "丹佛",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-AUS",
+      "city_name": "奥斯汀",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-ATL",
+      "city_name": "亚特兰大",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-MIA",
+      "city_name": "迈阿密",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-WDC",
+      "city_name": "华盛顿",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-PHX",
+      "city_name": "菲尼克斯",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-DAL",
+      "city_name": "达拉斯",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-HOU",
+      "city_name": "休斯顿",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-PHL",
+      "city_name": "费城",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-SDJ",
+      "city_name": "圣迭戈",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-LAS",
+      "city_name": "拉斯维加斯",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-DET",
+      "city_name": "底特律",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-MSP",
+      "city_name": "明尼阿波利斯",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-CLT",
+      "city_name": "夏洛特",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-PDX",
+      "city_name": "波特兰",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-SJC",
+      "city_name": "圣何塞",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-SAC",
+      "city_name": "萨克拉门托",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "US-ORL",
+      "city_name": "奥兰多",
+      "country_name": "美国",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CA-MTL",
+      "city_name": "蒙特利尔",
+      "country_name": "加拿大",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CA-OTT",
+      "city_name": "渥太华",
+      "country_name": "加拿大",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CA-CGY",
+      "city_name": "卡尔加里",
+      "country_name": "加拿大",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CA-EDM",
+      "city_name": "埃德蒙顿",
+      "country_name": "加拿大",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CA-QUE",
+      "city_name": "魁北克城",
+      "country_name": "加拿大",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "MX-MEX",
+      "city_name": "墨西哥城",
+      "country_name": "墨西哥",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "MX-GDL",
+      "city_name": "瓜达拉哈拉",
+      "country_name": "墨西哥",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "MX-MTY",
+      "city_name": "蒙特雷",
+      "country_name": "墨西哥",
+      "region": "North America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IE-DUB",
+      "city_name": "都柏林",
+      "country_name": "爱尔兰",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "GB-MAN",
+      "city_name": "曼彻斯特",
+      "country_name": "英国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "GB-EDI",
+      "city_name": "爱丁堡",
+      "country_name": "英国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "GB-GLA",
+      "city_name": "格拉斯哥",
+      "country_name": "英国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "FR-LYO",
+      "city_name": "里昂",
+      "country_name": "法国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "FR-MRS",
+      "city_name": "马赛",
+      "country_name": "法国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "FR-NCE",
+      "city_name": "尼斯",
+      "country_name": "法国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "DE-MUC",
+      "city_name": "慕尼黑",
+      "country_name": "德国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "DE-FRA",
+      "city_name": "法兰克福",
+      "country_name": "德国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "DE-HAM",
+      "city_name": "汉堡",
+      "country_name": "德国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "DE-CGN",
+      "city_name": "科隆",
+      "country_name": "德国",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "NL-AMS",
+      "city_name": "阿姆斯特丹",
+      "country_name": "荷兰",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "NL-RTM",
+      "city_name": "鹿特丹",
+      "country_name": "荷兰",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "BE-BRU",
+      "city_name": "布鲁塞尔",
+      "country_name": "比利时",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "LU-LUX",
+      "city_name": "卢森堡",
+      "country_name": "卢森堡",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CH-ZRH",
+      "city_name": "苏黎世",
+      "country_name": "瑞士",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CH-GVA",
+      "city_name": "日内瓦",
+      "country_name": "瑞士",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "AT-VIE",
+      "city_name": "维也纳",
+      "country_name": "奥地利",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IT-ROM",
+      "city_name": "罗马",
+      "country_name": "意大利",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IT-MIL",
+      "city_name": "米兰",
+      "country_name": "意大利",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IT-FLR",
+      "city_name": "佛罗伦萨",
+      "country_name": "意大利",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IT-VCE",
+      "city_name": "威尼斯",
+      "country_name": "意大利",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IT-NAP",
+      "city_name": "那不勒斯",
+      "country_name": "意大利",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "ES-MAD",
+      "city_name": "马德里",
+      "country_name": "西班牙",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "ES-BCN",
+      "city_name": "巴塞罗那",
+      "country_name": "西班牙",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "ES-VLC",
+      "city_name": "瓦伦西亚",
+      "country_name": "西班牙",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "PT-LIS",
+      "city_name": "里斯本",
+      "country_name": "葡萄牙",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "PT-OPO",
+      "city_name": "波尔图",
+      "country_name": "葡萄牙",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "SE-STO",
+      "city_name": "斯德哥尔摩",
+      "country_name": "瑞典",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "SE-GOT",
+      "city_name": "哥德堡",
+      "country_name": "瑞典",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "NO-OSL",
+      "city_name": "奥斯陆",
+      "country_name": "挪威",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "DK-CPH",
+      "city_name": "哥本哈根",
+      "country_name": "丹麦",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "FI-HEL",
+      "city_name": "赫尔辛基",
+      "country_name": "芬兰",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "PL-WAW",
+      "city_name": "华沙",
+      "country_name": "波兰",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CZ-PRG",
+      "city_name": "布拉格",
+      "country_name": "捷克",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "HU-BUD",
+      "city_name": "布达佩斯",
+      "country_name": "匈牙利",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "RO-BUH",
+      "city_name": "布加勒斯特",
+      "country_name": "罗马尼亚",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "GR-ATH",
+      "city_name": "雅典",
+      "country_name": "希腊",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "TR-IST",
+      "city_name": "伊斯坦布尔",
+      "country_name": "土耳其",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "RU-MOW",
+      "city_name": "莫斯科",
+      "country_name": "俄罗斯",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "RU-LED",
+      "city_name": "圣彼得堡",
+      "country_name": "俄罗斯",
+      "region": "Europe",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "AE-DXB",
+      "city_name": "迪拜",
+      "country_name": "阿联酋",
+      "region": "Middle East",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "AE-AUH",
+      "city_name": "阿布扎比",
+      "country_name": "阿联酋",
+      "region": "Middle East",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IL-TLV",
+      "city_name": "特拉维夫",
+      "country_name": "以色列",
+      "region": "Middle East",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "SA-RUH",
+      "city_name": "利雅得",
+      "country_name": "沙特阿拉伯",
+      "region": "Middle East",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "QA-DOH",
+      "city_name": "多哈",
+      "country_name": "卡塔尔",
+      "region": "Middle East",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "JP-NGO",
+      "city_name": "名古屋",
+      "country_name": "日本",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "JP-FUK",
+      "city_name": "福冈",
+      "country_name": "日本",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "JP-SPP",
+      "city_name": "札幌",
+      "country_name": "日本",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "JP-KYO",
+      "city_name": "京都",
+      "country_name": "日本",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "KR-BUS",
+      "city_name": "釜山",
+      "country_name": "韩国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "KR-INC",
+      "city_name": "仁川",
+      "country_name": "韩国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "TW-TPE",
+      "city_name": "台北",
+      "country_name": "中国台湾",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "HK-HKG",
+      "city_name": "香港",
+      "country_name": "中国香港",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "MO-MFM",
+      "city_name": "澳门",
+      "country_name": "中国澳门",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-TJ",
+      "city_name": "天津",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-CS",
+      "city_name": "长沙",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-XM",
+      "city_name": "厦门",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-QD",
+      "city_name": "青岛",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-SU",
+      "city_name": "苏州",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-SY",
+      "city_name": "沈阳",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-HR",
+      "city_name": "哈尔滨",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-DL",
+      "city_name": "大连",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-JN",
+      "city_name": "济南",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-FZ",
+      "city_name": "福州",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-NB",
+      "city_name": "宁波",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-WX",
+      "city_name": "无锡",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-KM",
+      "city_name": "昆明",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-NN",
+      "city_name": "南宁",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-XN",
+      "city_name": "西宁",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-LZ",
+      "city_name": "兰州",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "CN-CC",
+      "city_name": "长春",
+      "country_name": "中国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "MY-KUL",
+      "city_name": "吉隆坡",
+      "country_name": "马来西亚",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "MY-PEN",
+      "city_name": "槟城",
+      "country_name": "马来西亚",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "ID-JKT",
+      "city_name": "雅加达",
+      "country_name": "印度尼西亚",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "ID-DPS",
+      "city_name": "巴厘岛",
+      "country_name": "印度尼西亚",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "PH-MNL",
+      "city_name": "马尼拉",
+      "country_name": "菲律宾",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "VN-HAN",
+      "city_name": "河内",
+      "country_name": "越南",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "VN-SGN",
+      "city_name": "胡志明市",
+      "country_name": "越南",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "TH-CNX",
+      "city_name": "清迈",
+      "country_name": "泰国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "KH-PNH",
+      "city_name": "金边",
+      "country_name": "柬埔寨",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "MM-RGN",
+      "city_name": "仰光",
+      "country_name": "缅甸",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "LK-CMB",
+      "city_name": "科伦坡",
+      "country_name": "斯里兰卡",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IN-DEL",
+      "city_name": "新德里",
+      "country_name": "印度",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IN-BLR",
+      "city_name": "班加罗尔",
+      "country_name": "印度",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IN-BOM",
+      "city_name": "孟买",
+      "country_name": "印度",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "IN-MAA",
+      "city_name": "金奈",
+      "country_name": "印度",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "PK-KHI",
+      "city_name": "卡拉奇",
+      "country_name": "巴基斯坦",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "BD-DAC",
+      "city_name": "达卡",
+      "country_name": "孟加拉国",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "NP-KTM",
+      "city_name": "加德满都",
+      "country_name": "尼泊尔",
+      "region": "Asia",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "AU-MEL",
+      "city_name": "墨尔本",
+      "country_name": "澳大利亚",
+      "region": "Oceania",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "AU-BNE",
+      "city_name": "布里斯班",
+      "country_name": "澳大利亚",
+      "region": "Oceania",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "AU-PER",
+      "city_name": "珀斯",
+      "country_name": "澳大利亚",
+      "region": "Oceania",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "NZ-AKL",
+      "city_name": "奥克兰",
+      "country_name": "新西兰",
+      "region": "Oceania",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "NZ-WLG",
+      "city_name": "惠灵顿",
+      "country_name": "新西兰",
+      "region": "Oceania",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "BR-RIO",
+      "city_name": "里约热内卢",
+      "country_name": "巴西",
+      "region": "Latin America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "city_id": "BR-SPA",
+      "city_name": "圣保罗",
+      "country_name": "巴西",
+      "region": "Latin America",
+      "lat": null,
+      "lon": null,
+      "dimension_scores": {
+        "Climate": 0.5,
+        "Cost": 0.5,
+        "Safety": 0.5,
+        "Mobility": 0.5,
+        "Career": 0.5,
+        "Culture": 0.5,
+        "Nature": 0.5,
+        "International": 0.5
+      },
+      "tags": [
+        "seed"
+      ],
+      "known_tradeoffs": [
+        "Data needed"
+      ],
+      "confidence": "Low"
+    }
+  ]
+}

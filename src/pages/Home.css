@@ -1,0 +1,200 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.home-container {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  opacity: 0.95;
+}
+
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  opacity: 0.9;
+}
+
+.start-button {
+  background: white;
+  color: #667eea;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: transform 0.2s;
+}
+
+.start-button:hover {
+  transform: scale(1.05);
+}
+
+.mode-selection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mode-button {
+  background: rgba(255, 255, 255, 0.95);
+  border: 3px solid transparent;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  transition: all 0.3s;
+  position: relative;
+  text-align: center;
+}
+
+.mode-button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.mode-button.full {
+  border-color: #667eea;
+}
+
+.mode-button.full:hover {
+  background: #667eea;
+  color: white;
+}
+
+.mode-button.quick:hover {
+  border-color: #667eea;
+}
+
+.mode-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.mode-button h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.mode-button.full:hover h3,
+.mode-button.full:hover p {
+  color: white;
+}
+
+.mode-button p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.mode-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #667eea;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.home-note {
+  margin-top: 1.5rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .home-title {
+    font-size: 2.5rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .home-features {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .feature {
+    padding: 1.5rem;
+  }
+
+  .start-button {
+    padding: 0.9rem 2.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home {
+    padding: 15px;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+
+  .feature h3 {
+    font-size: 1.1rem;
+  }
+
+  .mode-selection {
+    grid-template-columns: 1fr;
+  }
+
+  .mode-button {
+    padding: 1.5rem 1rem;
+  }
+}
